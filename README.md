@@ -1,7 +1,24 @@
 # Logger
 
-git 
-## Installation
+Logger that stores in D1 cloudflare database.
+ 
+## Instaling
+
+Add this to your package's `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  cloudflare_d1:
+    git:
+      url: https://github.com/yabzec/logger.git
+      ref: main
+```
+
+Then run:
+
+```bash
+flutter pub get
+```
 
 Setup a cloudflare databse with the following table named `log`
 
