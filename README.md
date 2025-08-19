@@ -8,7 +8,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  cloudflare_d1:
+  logger:
     git:
       url: https://github.com/yabzec/logger.git
       ref: main
